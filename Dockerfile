@@ -2,6 +2,7 @@
 FROM eclipse-temurin:17-jdk-alpine AS builder
 WORKDIR /app
 
+RUN chmod +x mvnw
 COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
