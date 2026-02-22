@@ -90,6 +90,7 @@ public class SecurityConfiguration {
             "http://localhost:5173",
             "http://127.0.0.1:3000",
             "http://127.0.0.1:5173",
+            "https://sd-front-end-theta.vercel.app", // Tu nueva URL de producción
             "https://sd-front-end-git-main-jhoners-projects.vercel.app"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
